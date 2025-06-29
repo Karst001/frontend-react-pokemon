@@ -1,1 +1,15 @@
-/*Schrijf hier jouw eigen CSS!*/
+/*displays loading on each API call*/
+
+.spinner {
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
