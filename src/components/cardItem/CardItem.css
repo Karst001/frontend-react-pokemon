@@ -1,0 +1,17 @@
+/*creates the card*/
+.pokemon-card {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 16px;
+    width: 250px;
+
+    background-color: #f9f9f9;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 cards per row, not mobile friendly at this time */
+    gap: 16px;
+    padding: 16px;
+}
